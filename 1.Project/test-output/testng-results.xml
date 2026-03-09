@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="27" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-01T02:05:08 IST" name="Suite" finished-at="2026-03-01T02:11:36 IST" duration-ms="387691">
+    <groups>
+    </groups>
+    <test started-at="2026-03-01T02:05:08 IST" name="Test" finished-at="2026-03-01T02:11:36 IST" duration-ms="387691">
+      <class name="test.DeleteContactTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:29 IST" name="testdescription" finished-at="2026-03-01T02:08:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:29 IST" name="browserlaunch" finished-at="2026-03-01T02:08:37 IST" duration-ms="7904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="deletecontact(java.lang.String,java.lang.String)[pri:1, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:37 IST" name="deletecontact" data-provider="xllogindetails" finished-at="2026-03-01T02:08:41 IST" duration-ms="3805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:41 IST" name="closebrowser" finished-at="2026-03-01T02:08:41 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:41 IST" name="browserlaunch" finished-at="2026-03-01T02:08:49 IST" duration-ms="7815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="deletealert(java.lang.String,java.lang.String)[pri:2, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:49 IST" name="deletealert" data-provider="xllogindetails" finished-at="2026-03-01T02:08:53 IST" duration-ms="3547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletealert -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:53 IST" name="closebrowser" finished-at="2026-03-01T02:08:53 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:08:53 IST" name="browserlaunch" finished-at="2026-03-01T02:09:01 IST" duration-ms="7909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="deleteconformation(java.lang.String,java.lang.String)[pri:3, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:09:01 IST" name="deleteconformation" data-provider="xllogindetails" finished-at="2026-03-01T02:09:36 IST" duration-ms="34976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteconformation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.DeleteContactTest@1608bcbd]" started-at="2026-03-01T02:09:36 IST" name="closebrowser" finished-at="2026-03-01T02:09:36 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.DeleteContactTest -->
+      <class name="test.UIandResponsivenessTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:10:16 IST" name="testdescription" finished-at="2026-03-01T02:10:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:10:16 IST" name="browserlaunch" finished-at="2026-03-01T02:10:24 IST" duration-ms="8491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="successindicators(java.lang.String,java.lang.String)[pri:0, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:10:24 IST" name="successindicators" data-provider="xllogindetails" finished-at="2026-03-01T02:10:58 IST" duration-ms="33495" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //div[contains(@class,'toast-message')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'toast-message')]"}.
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.3', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /var/folders/0t/29h526h57ms...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58409}, goog:processID: 10089, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58409/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f403bc393e34e0d0691e905eee4a36ea]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[contains(@class,'toast-message')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'toast-message')]"}.
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.3', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /var/folders/0t/29h526h57ms...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58409}, goog:processID: 10089, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58409/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f403bc393e34e0d0691e905eee4a36ea
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at pages.ContactPage.getToastMessage(ContactPage.java:242)
+at test.UIandResponsivenessTest.successindicators(UIandResponsivenessTest.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successindicators -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:10:58 IST" name="closebrowser" finished-at="2026-03-01T02:10:58 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:10:58 IST" name="browserlaunch" finished-at="2026-03-01T02:11:07 IST" duration-ms="8572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="alignment(java.lang.String,java.lang.String)[pri:1, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:11:07 IST" name="alignment" data-provider="xllogindetails" finished-at="2026-03-01T02:11:10 IST" duration-ms="3342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alignment -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.UIandResponsivenessTest@29ca3d04]" started-at="2026-03-01T02:11:10 IST" name="closebrowser" finished-at="2026-03-01T02:11:10 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.UIandResponsivenessTest -->
+      <class name="test.InputvalidationTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:11:10 IST" name="testdescription" finished-at="2026-03-01T02:11:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:11:10 IST" name="browserlaunch" finished-at="2026-03-01T02:11:18 IST" duration-ms="7864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="addingemoji(java.lang.String,java.lang.String)[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:11:18 IST" name="addingemoji" data-provider="xllogindetails" finished-at="2026-03-01T02:11:23 IST" duration-ms="5202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingemoji -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:11:24 IST" name="closebrowser" finished-at="2026-03-01T02:11:24 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:11:24 IST" name="browserlaunch" finished-at="2026-03-01T02:11:32 IST" duration-ms="7853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="successindicators(java.lang.String,java.lang.String)[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:11:32 IST" name="successindicators" data-provider="xllogindetails" finished-at="2026-03-01T02:11:36 IST" duration-ms="4065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successindicators -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.InputvalidationTest@b2c5e07]" started-at="2026-03-01T02:11:36 IST" name="closebrowser" finished-at="2026-03-01T02:11:36 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.InputvalidationTest -->
+      <class name="test.SessionAndNavigationTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:36 IST" name="testdescription" finished-at="2026-03-01T02:09:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:36 IST" name="browserlaunch" finished-at="2026-03-01T02:09:44 IST" duration-ms="7957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="redirect(java.lang.String,java.lang.String)[pri:1, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:44 IST" name="redirect" data-provider="xllogindetails" finished-at="2026-03-01T02:09:47 IST" duration-ms="2927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:47 IST" name="closebrowser" finished-at="2026-03-01T02:09:47 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:47 IST" name="browserlaunch" finished-at="2026-03-01T02:09:55 IST" duration-ms="7813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="refresh(java.lang.String,java.lang.String)[pri:2, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:55 IST" name="refresh" data-provider="xllogindetails" finished-at="2026-03-01T02:09:57 IST" duration-ms="1586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:57 IST" name="closebrowser" finished-at="2026-03-01T02:09:57 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:09:57 IST" name="browserlaunch" finished-at="2026-03-01T02:10:05 IST" duration-ms="7845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyurl(java.lang.String,java.lang.String)[pri:3, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:10:05 IST" name="verifyurl" data-provider="xllogindetails" finished-at="2026-03-01T02:10:06 IST" duration-ms="801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurl -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:10:06 IST" name="closebrowser" finished-at="2026-03-01T02:10:06 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:10:06 IST" name="browserlaunch" finished-at="2026-03-01T02:10:14 IST" duration-ms="7820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="Backbutton(java.lang.String,java.lang.String)[pri:4, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:10:14 IST" name="Backbutton" data-provider="xllogindetails" finished-at="2026-03-01T02:10:15 IST" duration-ms="1377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Backbutton -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SessionAndNavigationTest@5bf8fa12]" started-at="2026-03-01T02:10:16 IST" name="closebrowser" finished-at="2026-03-01T02:10:16 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.SessionAndNavigationTest -->
+      <class name="test.SignupTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:05:59 IST" name="testdescription" finished-at="2026-03-01T02:05:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:05:59 IST" name="browserlaunch" finished-at="2026-03-01T02:06:07 IST" duration-ms="7806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:07 IST" name="signup" data-provider="xlsignup" finished-at="2026-03-01T02:06:09 IST" duration-ms="1812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[newuser018@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:09 IST" name="closebrowser" finished-at="2026-03-01T02:06:09 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:09 IST" name="browserlaunch" finished-at="2026-03-01T02:06:17 IST" duration-ms="7862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:17 IST" name="signup" data-provider="xlsignup" finished-at="2026-03-01T02:06:19 IST" duration-ms="1847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user007]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:19 IST" name="closebrowser" finished-at="2026-03-01T02:06:19 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:19 IST" name="browserlaunch" finished-at="2026-03-01T02:06:27 IST" duration-ms="7911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:27 IST" name="signup" data-provider="xlsignup" finished-at="2026-03-01T02:06:29 IST" duration-ms="1913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:29 IST" name="closebrowser" finished-at="2026-03-01T02:06:29 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:29 IST" name="browserlaunch" finished-at="2026-03-01T02:06:37 IST" duration-ms="7893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:37 IST" name="signup" data-provider="xlsignup" finished-at="2026-03-01T02:06:39 IST" duration-ms="1848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user@com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:39 IST" name="closebrowser" finished-at="2026-03-01T02:06:39 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:39 IST" name="browserlaunch" finished-at="2026-03-01T02:06:48 IST" duration-ms="8226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:48 IST" name="signup" data-provider="xlsignup" finished-at="2026-03-01T02:06:49 IST" duration-ms="1905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[name@name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@4331d187]" started-at="2026-03-01T02:06:50 IST" name="closebrowser" finished-at="2026-03-01T02:06:50 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.SignupTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="reportintialization()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:08 IST" name="reportintialization" finished-at="2026-03-01T02:05:08 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportintialization -->
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:08 IST" name="testdescription" finished-at="2026-03-01T02:05:08 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:11 IST" name="browserlaunch" finished-at="2026-03-01T02:05:21 IST" duration-ms="10093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="loginprac(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:21 IST" name="loginprac" data-provider="xllogin" finished-at="2026-03-01T02:05:22 IST" duration-ms="1099" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validinput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/contactList]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at pages.LoginPage.validatelogin(LoginPage.java:69)
+at test.LoginTest.loginprac(LoginTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginprac -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:22 IST" name="closebrowser" finished-at="2026-03-01T02:05:22 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:22 IST" name="browserlaunch" finished-at="2026-03-01T02:05:30 IST" duration-ms="8070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="loginprac(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:30 IST" name="loginprac" data-provider="xllogin" finished-at="2026-03-01T02:05:31 IST" duration-ms="955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalidinput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginprac -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:31 IST" name="closebrowser" finished-at="2026-03-01T02:05:31 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:31 IST" name="browserlaunch" finished-at="2026-03-01T02:05:39 IST" duration-ms="7966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="loginprac(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:39 IST" name="loginprac" data-provider="xllogin" finished-at="2026-03-01T02:05:40 IST" duration-ms="905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emptyfileds]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Incorrect username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginprac -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:40 IST" name="closebrowser" finished-at="2026-03-01T02:05:41 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:41 IST" name="browserlaunch" finished-at="2026-03-01T02:05:49 IST" duration-ms="7935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="loginprac(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:49 IST" name="loginprac" data-provider="xllogin" finished-at="2026-03-01T02:05:49 IST" duration-ms="919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalidusername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Incorrect username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginprac -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:50 IST" name="closebrowser" finished-at="2026-03-01T02:05:50 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:50 IST" name="browserlaunch" finished-at="2026-03-01T02:05:58 IST" duration-ms="7901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="loginprac(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:58 IST" name="loginprac" data-provider="xllogin" finished-at="2026-03-01T02:05:58 IST" duration-ms="878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Passwordmask]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginprac -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:05:59 IST" name="closebrowser" finished-at="2026-03-01T02:05:59 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closereport()[pri:0, instance:test.LoginTest@7749bf93]" started-at="2026-03-01T02:11:36 IST" name="closereport" finished-at="2026-03-01T02:11:37 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereport -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.EditContactTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:07:49 IST" name="testdescription" finished-at="2026-03-01T02:07:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:07:49 IST" name="browserlaunch" finished-at="2026-03-01T02:07:56 IST" duration-ms="7846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="editcontactsbutton(java.lang.String,java.lang.String)[pri:1, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:07:56 IST" name="editcontactsbutton" data-provider="xllogindetails" finished-at="2026-03-01T02:08:01 IST" duration-ms="4342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editcontactsbutton -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:08:01 IST" name="closebrowser" finished-at="2026-03-01T02:08:01 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:08:01 IST" name="browserlaunch" finished-at="2026-03-01T02:08:09 IST" duration-ms="7799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="editcontact(java.lang.String,java.lang.String)[pri:2, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:08:09 IST" name="editcontact" data-provider="xllogindetails" finished-at="2026-03-01T02:08:16 IST" duration-ms="6628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editcontact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:08:16 IST" name="closebrowser" finished-at="2026-03-01T02:08:16 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:08:16 IST" name="browserlaunch" finished-at="2026-03-01T02:08:24 IST" duration-ms="7864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="canceledit(java.lang.String,java.lang.String)[pri:3, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:08:24 IST" name="canceledit" data-provider="xllogindetails" finished-at="2026-03-01T02:08:29 IST" duration-ms="5086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canceledit -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.EditContactTest@554e218]" started-at="2026-03-01T02:08:29 IST" name="closebrowser" finished-at="2026-03-01T02:08:29 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.EditContactTest -->
+      <class name="test.AddContactTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:05:08 IST" name="extentdetails" finished-at="2026-03-01T02:05:08 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:06:50 IST" name="testdescription" finished-at="2026-03-01T02:06:50 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:06:51 IST" name="browserlaunch" finished-at="2026-03-01T02:06:59 IST" duration-ms="7820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="AddContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:06:59 IST" name="AddContact" data-provider="xladdcontact" finished-at="2026-03-01T02:07:02 IST" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[keerthana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Contact added]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:02 IST" name="closebrowser" finished-at="2026-03-01T02:07:02 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:02 IST" name="browserlaunch" finished-at="2026-03-01T02:07:10 IST" duration-ms="7841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="AddContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:10 IST" name="AddContact" data-provider="xladdcontact" finished-at="2026-03-01T02:07:14 IST" duration-ms="3542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[antony]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[MissingFN]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[First Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:14 IST" name="closebrowser" finished-at="2026-03-01T02:07:14 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:14 IST" name="browserlaunch" finished-at="2026-03-01T02:07:22 IST" duration-ms="7926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="AddContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:22 IST" name="AddContact" data-provider="xladdcontact" finished-at="2026-03-01T02:07:25 IST" duration-ms="3315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tvk ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[MissingLN]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Last Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:25 IST" name="closebrowser" finished-at="2026-03-01T02:07:26 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:26 IST" name="browserlaunch" finished-at="2026-03-01T02:07:33 IST" duration-ms="7893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="AddContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:33 IST" name="AddContact" data-provider="xladdcontact" finished-at="2026-03-01T02:07:37 IST" duration-ms="3458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[siva]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[karthi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[InvalidPhone]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Only numbers allowed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:37 IST" name="closebrowser" finished-at="2026-03-01T02:07:37 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:37 IST" name="browserlaunch" finished-at="2026-03-01T02:07:45 IST" duration-ms="7779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="AddContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:45 IST" name="AddContact" data-provider="xladdcontact" finished-at="2026-03-01T02:07:48 IST" duration-ms="3295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saravanan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Duplicate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Duplicate contact]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.AddContactTest@6f63b475]" started-at="2026-03-01T02:07:48 IST" name="closebrowser" finished-at="2026-03-01T02:07:49 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.AddContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

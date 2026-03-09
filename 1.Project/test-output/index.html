@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 2 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="loginprac(newuser007@gmail.com, 12345678, Validinput, https://thinking-tester-contact-list.herokuapp.com/conta...)">loginprac(newuser007@gmail.com, 12345678, Validinput, https://thinking-tester-contact-list.herokuapp.com/conta...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.UIandResponsivenessTest" class="method navigator-link" hash-for-method="successindicators(newuser007@gmail.com, 12345678)">successindicators(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AddContactTest" class="method navigator-link" hash-for-method="AddContact(newuser007@gmail.com, 12345678, vijay, tvk , 9876543210, chennai, MissingLN, Last Name is required)">AddContact(newuser007@gmail.com, 12345678, vijay, tvk , 9876543210, chennai, MissingLN, Last Name is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AddContactTest" class="method navigator-link" hash-for-method="AddContact(newuser007@gmail.com, 12345678,  , antony, 9876543210, chennai, MissingFN, First Name is required)">AddContact(newuser007@gmail.com, 12345678,  , antony, 9876543210, chennai, MissingFN, First Name is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AddContactTest" class="method navigator-link" hash-for-method="AddContact(newuser007@gmail.com, 12345678, siva, karthi, abcd, chennai, InvalidPhone, Only numbers allowed)">AddContact(newuser007@gmail.com, 12345678, siva, karthi, abcd, chennai, InvalidPhone, Only numbers allowed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AddContactTest" class="method navigator-link" hash-for-method="AddContact(newuser007@gmail.com, 12345678, keerthana, ravi, 9876543210, chennai, Valid, Contact added)">AddContact(newuser007@gmail.com, 12345678, keerthana, ravi, 9876543210, chennai, Valid, Contact added)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AddContactTest" class="method navigator-link" hash-for-method="AddContact(newuser007@gmail.com, 12345678, surya, saravanan, 9876543210, chennai, Duplicate, Duplicate contact)">AddContact(newuser007@gmail.com, 12345678, surya, saravanan, 9876543210, chennai, Duplicate, Duplicate contact)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SessionAndNavigationTest" class="method navigator-link" hash-for-method="Backbutton(newuser007@gmail.com, 12345678)">Backbutton(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InputvalidationTest" class="method navigator-link" hash-for-method="addingemoji(newuser007@gmail.com, 12345678)">addingemoji(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.UIandResponsivenessTest" class="method navigator-link" hash-for-method="alignment(newuser007@gmail.com, 12345678)">alignment(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.EditContactTest" class="method navigator-link" hash-for-method="canceledit(newuser007@gmail.com, 12345678)">canceledit(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DeleteContactTest" class="method navigator-link" hash-for-method="deletealert(newuser007@gmail.com, 12345678)">deletealert(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DeleteContactTest" class="method navigator-link" hash-for-method="deleteconformation(newuser007@gmail.com, 12345678)">deleteconformation(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DeleteContactTest" class="method navigator-link" hash-for-method="deletecontact(newuser007@gmail.com, 12345678)">deletecontact(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.EditContactTest" class="method navigator-link" hash-for-method="editcontact(newuser007@gmail.com, 12345678)">editcontact(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.EditContactTest" class="method navigator-link" hash-for-method="editcontactsbutton(newuser007@gmail.com, 12345678)">editcontactsbutton(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="loginprac(newuser@gmail.com, 12345678, Passwordmask,  )">loginprac(newuser@gmail.com, 12345678, Passwordmask,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="loginprac(user@com, 12345678, Invalidusername, Incorrect username or password)">loginprac(user@com, 12345678, Invalidusername, Incorrect username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="loginprac(newuser007@gmail.com, wrongpassword, Invalidinput, https://thinking-tester-contact-list.herokuapp.co...)">loginprac(newuser007@gmail.com, wrongpassword, Invalidinput, https://thinking-tester-contact-list.herokuapp.co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="loginprac( ,  , Emptyfileds, Incorrect username or password)">loginprac( ,  , Emptyfileds, Incorrect username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SessionAndNavigationTest" class="method navigator-link" hash-for-method="redirect(newuser007@gmail.com, 12345678)">redirect(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SessionAndNavigationTest" class="method navigator-link" hash-for-method="refresh(newuser007@gmail.com, 12345678)">refresh(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signup(new, user,  ,  )">signup(new, user,  ,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signup(new, user018, newuser018@gmail.com, 12345678)">signup(new, user018, newuser018@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signup(new, user007, newuser007@gmail.com, wrongpassword)">signup(new, user007, newuser007@gmail.com, wrongpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signup( ,  , user@com, 12345678)">signup( ,  , user@com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signup(name, name, name@name, 12345678)">signup(name, name, name@name, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InputvalidationTest" class="method navigator-link" hash-for-method="successindicators(newuser007@gmail.com, 12345678)">successindicators(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SessionAndNavigationTest" class="method navigator-link" hash-for-method="verifyurl(newuser007@gmail.com, 12345678)">verifyurl(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginprac(newuser007@gmail.com, 12345678, Validinput, https://thinking-tester-contact-list.herokuapp.com/conta...)">
+                  </a> <!-- loginprac(newuser007@gmail.com, 12345678, Validinput, https://thinking-tester-contact-list.herokuapp.com/conta...) -->
+                  <span class="method-name">loginprac</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Validinput,https://thinking-tester-contact-list.herokuapp.com/contactList)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at pages.LoginPage.validatelogin(LoginPage.java:69)
+	at test.LoginTest.loginprac(LoginTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.UIandResponsivenessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="successindicators(newuser007@gmail.com, 12345678)">
+                  </a> <!-- successindicators(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">successindicators</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[contains(@class,&apos;toast-message&apos;)], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;toast-message&apos;)]&quot;}.
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.7.3&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /var/folders/0t/29h526h57ms...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58409}, goog:processID: 10089, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58409/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f403bc393e34e0d0691e905eee4a36ea
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at pages.ContactPage.getToastMessage(ContactPage.java:242)
+	at test.UIandResponsivenessTest.successindicators(UIandResponsivenessTest.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.AddContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddContact(newuser007@gmail.com, 12345678, vijay, tvk , 9876543210, chennai, MissingLN, Last Name is required)">
+                  </a> <!-- AddContact(newuser007@gmail.com, 12345678, vijay, tvk , 9876543210, chennai, MissingLN, Last Name is required) -->
+                  <span class="method-name">AddContact</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,vijay,tvk ,9876543210,chennai,MissingLN,Last Name is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddContact(newuser007@gmail.com, 12345678,  , antony, 9876543210, chennai, MissingFN, First Name is required)">
+                  </a> <!-- AddContact(newuser007@gmail.com, 12345678,  , antony, 9876543210, chennai, MissingFN, First Name is required) -->
+                  <span class="method-name">AddContact</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678, ,antony,9876543210,chennai,MissingFN,First Name is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddContact(newuser007@gmail.com, 12345678, siva, karthi, abcd, chennai, InvalidPhone, Only numbers allowed)">
+                  </a> <!-- AddContact(newuser007@gmail.com, 12345678, siva, karthi, abcd, chennai, InvalidPhone, Only numbers allowed) -->
+                  <span class="method-name">AddContact</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,siva,karthi,abcd,chennai,InvalidPhone,Only numbers allowed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddContact(newuser007@gmail.com, 12345678, keerthana, ravi, 9876543210, chennai, Valid, Contact added)">
+                  </a> <!-- AddContact(newuser007@gmail.com, 12345678, keerthana, ravi, 9876543210, chennai, Valid, Contact added) -->
+                  <span class="method-name">AddContact</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,keerthana,ravi,9876543210,chennai,Valid,Contact added)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddContact(newuser007@gmail.com, 12345678, surya, saravanan, 9876543210, chennai, Duplicate, Duplicate contact)">
+                  </a> <!-- AddContact(newuser007@gmail.com, 12345678, surya, saravanan, 9876543210, chennai, Duplicate, Duplicate contact) -->
+                  <span class="method-name">AddContact</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,surya,saravanan,9876543210,chennai,Duplicate,Duplicate contact)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SessionAndNavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Backbutton(newuser007@gmail.com, 12345678)">
+                  </a> <!-- Backbutton(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">Backbutton</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirect(newuser007@gmail.com, 12345678)">
+                  </a> <!-- redirect(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">redirect</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="refresh(newuser007@gmail.com, 12345678)">
+                  </a> <!-- refresh(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">refresh</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyurl(newuser007@gmail.com, 12345678)">
+                  </a> <!-- verifyurl(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">verifyurl</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.EditContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="canceledit(newuser007@gmail.com, 12345678)">
+                  </a> <!-- canceledit(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">canceledit</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editcontact(newuser007@gmail.com, 12345678)">
+                  </a> <!-- editcontact(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">editcontact</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editcontactsbutton(newuser007@gmail.com, 12345678)">
+                  </a> <!-- editcontactsbutton(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">editcontactsbutton</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SignupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(new, user,  ,  )">
+                  </a> <!-- signup(new, user,  ,  ) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(new,user, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(new, user018, newuser018@gmail.com, 12345678)">
+                  </a> <!-- signup(new, user018, newuser018@gmail.com, 12345678) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(new,user018,newuser018@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(new, user007, newuser007@gmail.com, wrongpassword)">
+                  </a> <!-- signup(new, user007, newuser007@gmail.com, wrongpassword) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(new,user007,newuser007@gmail.com,wrongpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup( ,  , user@com, 12345678)">
+                  </a> <!-- signup( ,  , user@com, 12345678) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">( , ,user@com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(name, name, name@name, 12345678)">
+                  </a> <!-- signup(name, name, name@name, 12345678) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(name,name,name@name,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.InputvalidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingemoji(newuser007@gmail.com, 12345678)">
+                  </a> <!-- addingemoji(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">addingemoji</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successindicators(newuser007@gmail.com, 12345678)">
+                  </a> <!-- successindicators(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">successindicators</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginprac(newuser@gmail.com, 12345678, Passwordmask,  )">
+                  </a> <!-- loginprac(newuser@gmail.com, 12345678, Passwordmask,  ) -->
+                  <span class="method-name">loginprac</span>
+                  <span class="parameters">(newuser@gmail.com,12345678,Passwordmask, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginprac(user@com, 12345678, Invalidusername, Incorrect username or password)">
+                  </a> <!-- loginprac(user@com, 12345678, Invalidusername, Incorrect username or password) -->
+                  <span class="method-name">loginprac</span>
+                  <span class="parameters">(user@com,12345678,Invalidusername,Incorrect username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginprac(newuser007@gmail.com, wrongpassword, Invalidinput, https://thinking-tester-contact-list.herokuapp.co...)">
+                  </a> <!-- loginprac(newuser007@gmail.com, wrongpassword, Invalidinput, https://thinking-tester-contact-list.herokuapp.co...) -->
+                  <span class="method-name">loginprac</span>
+                  <span class="parameters">(newuser007@gmail.com,wrongpassword,Invalidinput,https://thinking-tester-contact-list.herokuapp.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginprac( ,  , Emptyfileds, Incorrect username or password)">
+                  </a> <!-- loginprac( ,  , Emptyfileds, Incorrect username or password) -->
+                  <span class="method-name">loginprac</span>
+                  <span class="parameters">( , ,Emptyfileds,Incorrect username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.UIandResponsivenessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alignment(newuser007@gmail.com, 12345678)">
+                  </a> <!-- alignment(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">alignment</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.DeleteContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletealert(newuser007@gmail.com, 12345678)">
+                  </a> <!-- deletealert(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">deletealert</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteconformation(newuser007@gmail.com, 12345678)">
+                  </a> <!-- deleteconformation(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">deleteconformation</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletecontact(newuser007@gmail.com, 12345678)">
+                  </a> <!-- deletecontact(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">deletecontact</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/raghulrasu/Documents/software/java projects/1.Project/src/test/java/test/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://thinking-tester-contact-list.herokuapp.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.MyListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;test.SignupTest&quot;/&gt;
+      &lt;class name=&quot;test.AddContactTest&quot;/&gt;
+      &lt;class name=&quot;test.EditContactTest&quot;/&gt;
+      &lt;class name=&quot;test.DeleteContactTest&quot;/&gt;
+      &lt;class name=&quot;test.SessionAndNavigationTest&quot;/&gt;
+      &lt;class name=&quot;test.UIandResponsivenessTest&quot;/&gt;
+      &lt;class name=&quot;test.InputvalidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deleteconformation')
+data.setCell(0, 2, 'test.DeleteContactTest')
+data.setCell(0, 3, 34976);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'successindicators')
+data.setCell(1, 2, 'test.UIandResponsivenessTest')
+data.setCell(1, 3, 33495);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'editcontact')
+data.setCell(2, 2, 'test.EditContactTest')
+data.setCell(2, 3, 6628);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addingemoji')
+data.setCell(3, 2, 'test.InputvalidationTest')
+data.setCell(3, 3, 5202);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'canceledit')
+data.setCell(4, 2, 'test.EditContactTest')
+data.setCell(4, 3, 5086);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'editcontactsbutton')
+data.setCell(5, 2, 'test.EditContactTest')
+data.setCell(5, 3, 4342);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'successindicators')
+data.setCell(6, 2, 'test.InputvalidationTest')
+data.setCell(6, 3, 4065);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deletecontact')
+data.setCell(7, 2, 'test.DeleteContactTest')
+data.setCell(7, 3, 3805);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deletealert')
+data.setCell(8, 2, 'test.DeleteContactTest')
+data.setCell(8, 3, 3547);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AddContact')
+data.setCell(9, 2, 'test.AddContactTest')
+data.setCell(9, 3, 3542);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'AddContact')
+data.setCell(10, 2, 'test.AddContactTest')
+data.setCell(10, 3, 3469);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddContact')
+data.setCell(11, 2, 'test.AddContactTest')
+data.setCell(11, 3, 3458);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'alignment')
+data.setCell(12, 2, 'test.UIandResponsivenessTest')
+data.setCell(12, 3, 3342);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'AddContact')
+data.setCell(13, 2, 'test.AddContactTest')
+data.setCell(13, 3, 3315);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'AddContact')
+data.setCell(14, 2, 'test.AddContactTest')
+data.setCell(14, 3, 3295);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'redirect')
+data.setCell(15, 2, 'test.SessionAndNavigationTest')
+data.setCell(15, 3, 2927);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'signup')
+data.setCell(16, 2, 'test.SignupTest')
+data.setCell(16, 3, 1913);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'signup')
+data.setCell(17, 2, 'test.SignupTest')
+data.setCell(17, 3, 1905);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'signup')
+data.setCell(18, 2, 'test.SignupTest')
+data.setCell(18, 3, 1848);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'signup')
+data.setCell(19, 2, 'test.SignupTest')
+data.setCell(19, 3, 1847);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'signup')
+data.setCell(20, 2, 'test.SignupTest')
+data.setCell(20, 3, 1812);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'refresh')
+data.setCell(21, 2, 'test.SessionAndNavigationTest')
+data.setCell(21, 3, 1586);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Backbutton')
+data.setCell(22, 2, 'test.SessionAndNavigationTest')
+data.setCell(22, 3, 1377);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginprac')
+data.setCell(23, 2, 'test.LoginTest')
+data.setCell(23, 3, 1099);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginprac')
+data.setCell(24, 2, 'test.LoginTest')
+data.setCell(24, 3, 955);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginprac')
+data.setCell(25, 2, 'test.LoginTest')
+data.setCell(25, 3, 919);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'loginprac')
+data.setCell(26, 2, 'test.LoginTest')
+data.setCell(26, 3, 905);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'loginprac')
+data.setCell(27, 2, 'test.LoginTest')
+data.setCell(27, 3, 878);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyurl')
+data.setCell(28, 2, 'test.SessionAndNavigationTest')
+data.setCell(28, 3, 801);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">14 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.AddContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.SessionAndNavigationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.EditContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.SignupTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.InputvalidationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.UIandResponsivenessTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.DeleteContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportintialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AddContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">328 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DeleteContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">335 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.InputvalidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">336 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SessionAndNavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">336 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.EditContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">336 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">336 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">337 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.UIandResponsivenessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">337 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">357 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">2617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginprac(newuser007@gmail.com, 12345678, Validinput, https://thinking-tester-contact-list.herokuapp.com/conta...)</span>
+                <span class="method-start">12713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">14046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">14148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginprac(newuser007@gmail.com, wrongpassword, Invalidinput, https://thinking-tester-contact-list.herokuapp.co...)</span>
+                <span class="method-start">22219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">23365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">23460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginprac( ,  , Emptyfileds, Incorrect username or password)</span>
+                <span class="method-start">31428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">32513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">32607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginprac(user@com, 12345678, Invalidusername, Incorrect username or password)</span>
+                <span class="method-start">40542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">41645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">41735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginprac(newuser@gmail.com, 12345678, Passwordmask,  )</span>
+                <span class="method-start">49637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">50691 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">50789 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">51442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(new, user018, newuser018@gmail.com, 12345678)</span>
+                <span class="method-start">59249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">61224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">61313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(new, user007, newuser007@gmail.com, wrongpassword)</span>
+                <span class="method-start">69175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">71202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">71294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(new, user,  ,  )</span>
+                <span class="method-start">79205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">81291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">81382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup( ,  , user@com, 12345678)</span>
+                <span class="method-start">89276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">91303 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">91392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(name, name, name@name, 12345678)</span>
+                <span class="method-start">99622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">101715 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AddContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">101819 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">102855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddContact(newuser007@gmail.com, 12345678, keerthana, ravi, 9876543210, chennai, Valid, Contact added)</span>
+                <span class="method-start">110676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">114327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">114421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddContact(newuser007@gmail.com, 12345678,  , antony, 9876543210, chennai, MissingFN, First Name is required)</span>
+                <span class="method-start">122263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">125996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">126088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddContact(newuser007@gmail.com, 12345678, vijay, tvk , 9876543210, chennai, MissingLN, Last Name is required)</span>
+                <span class="method-start">134014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">137515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">137605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddContact(newuser007@gmail.com, 12345678, siva, karthi, abcd, chennai, InvalidPhone, Only numbers allowed)</span>
+                <span class="method-start">145498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">149156 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">149247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddContact(newuser007@gmail.com, 12345678, surya, saravanan, 9876543210, chennai, Duplicate, Duplicate contact)</span>
+                <span class="method-start">157026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">160499 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.EditContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">160588 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">160676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editcontactsbutton(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">168523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">173044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">173226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editcontact(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">181025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">187840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">188007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">canceledit(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">195871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">201126 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DeleteContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">201214 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">201270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deletecontact(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">209174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">213180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">213349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deletealert(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">221164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">224912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">225043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteconformation(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">232952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">268120 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SessionAndNavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">268217 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">268299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirect(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">276256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">279347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">279484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">refresh(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">287298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">289065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">289215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyurl(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">297060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">298065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">298193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Backbutton(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">306014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">307565 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.UIandResponsivenessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">307671 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">307756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">successindicators(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">316249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">349976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">350141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alignment(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">358713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">362242 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.InputvalidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">362342 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">362404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addingemoji(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">370269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">375666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://thinking-tester-contact-list.herokuapp.com/, chrome)</span>
+                <span class="method-start">375812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successindicators(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">383666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">387910 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closereport</span>
+                <span class="method-start">388120 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
