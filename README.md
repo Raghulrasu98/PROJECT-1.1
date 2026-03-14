@@ -1,25 +1,25 @@
-# 🛒 Demoblaze E-Commerce – Selenium Automation Testing Framework
+# 📋 Contact List Application – Selenium Automation Testing Framework.
 
 ## 📌 Project Overview
 
-This project is an end-to-end **Selenium WebDriver automation framework** built using **Java** and **TestNG** to test the [Demoblaze](https://www.demoblaze.com) e-commerce web application.
+This project is a **Selenium WebDriver automation framework** built using **Java** and **TestNG** to test the [Contact List Application](https://thinking-tester-contact-list.herokuapp.com/) — a CRUD-based web application used for QA practice.
 
-It covers functional testing, UI/UX validation, data-driven testing, and automated reporting — built using industry-standard design patterns and tools.
+It covers functional testing, input validation, UI responsiveness checks, session management, and automated reporting.
 
 ---
 
 ## 🌐 Application Under Test
 
-- **URL:** https://www.demoblaze.com
-- **Type:** E-Commerce Web Application
-- **Features Tested:** Login, Signup, Cart, Order Placement, Navigation, UI/UX
+- **URL:** https://thinking-tester-contact-list.herokuapp.com/
+- **Type:** Contact Management Web Application (CRUD)
+- **Features Tested:** Signup, Login, Add Contact, Edit Contact, Delete Contact, Input Validation, UI & Responsiveness
 
 ---
 
 ## 🏗️ Framework Architecture
 
 ```
-2.ProjectCopy/
+1.Project/
 ├── src/
 │   ├── main/java/
 │   │   ├── base/
@@ -27,12 +27,7 @@ It covers functional testing, UI/UX validation, data-driven testing, and automat
 │   │   ├── pages/                             # Page Object Model (POM) classes
 │   │   │   ├── LoginPage.java
 │   │   │   ├── SignupPage.java
-│   │   │   ├── CartPage.java
-│   │   │   ├── OrderPage.java
-│   │   │   ├── ProductPage.java
-│   │   │   ├── CategoryPage.java
-│   │   │   ├── NavbarPage.java
-│   │   │   └── FontPage.java
+│   │   │   └── ContactPage.java
 │   │   └── utils/
 │   │       ├── Utilityclass.java              # WebDriver setup, Excel reader, Screenshot util
 │   │       └── MyListeners.java               # TestNG Listener
@@ -40,13 +35,15 @@ It covers functional testing, UI/UX validation, data-driven testing, and automat
 │   │   └── test/                              # Test classes
 │   │       ├── LoginTest.java
 │   │       ├── SignupTest.java
-│   │       ├── CartFunctionTest.java
-│   │       ├── OrderFunctionTest.java
-│   │       ├── BrowsingAndNavigationTest.java
-│   │       └── UiAndUxTest.java
+│   │       ├── AddContactTest.java
+│   │       ├── EditContactTest.java
+│   │       ├── DeleteContactTest.java
+│   │       ├── InputvalidationTest.java
+│   │       ├── SessionAndNavigationTest.java
+│   │       └── UIandResponsivenessTest.java
 │   └── test/resources/
 │       └── Data/
-│           └── DemoblazeData.xlsx             # Excel test data
+│           └── Logindata.xlsx                 # Excel test data
 ├── Screenshot/                                # Auto-captured test screenshots
 ├── logs/                                      # Log4j log files
 └── pom.xml
@@ -58,14 +55,16 @@ It covers functional testing, UI/UX validation, data-driven testing, and automat
 
 | Test Class | Scenarios Covered |
 |---|---|
-| `LoginTest` | Valid login, Invalid login, Empty fields, Password masking |
+| `LoginTest` | Valid login, Invalid login, Empty fields, Wrong password |
 | `SignupTest` | Valid signup, Existing user, Empty fields |
-| `CartFunctionTest` | Add product, View cart, Remove product, Add multiple products + total validation |
-| `OrderFunctionTest` | Valid order placement, Empty order details, Confirmation popup |
-| `BrowsingAndNavigationTest` | Browse by category, View product details, Home navigation, Navbar navigation, Logout |
-| `UiAndUxTest` | Product alignment, Button visibility, Font consistency, Alert popup, Horizontal scrolling (mobile) |
+| `AddContactTest` | Add contact with full details using Excel data |
+| `EditContactTest` | Edit contact button, Edit contact details, Cancel edit validation |
+| `DeleteContactTest` | Delete contact, Alert verification, Delete confirmation |
+| `InputvalidationTest` | Long text input restriction, Emoji/special character input |
+| `SessionAndNavigationTest` | Session handling, Page navigation |
+| `UIandResponsivenessTest` | Field alignment, Button visibility, Toast message verification |
 
-> **Total: 20+ test scenarios across 6 test classes**
+> **Total: 20+ test scenarios across 8 test classes**
 
 ---
 
@@ -87,13 +86,13 @@ It covers functional testing, UI/UX validation, data-driven testing, and automat
 ## ✨ Key Features
 
 - ✅ **Page Object Model (POM)** – Clean separation of page logic and test logic
-- ✅ **Data-Driven Testing** – Test data managed via Excel sheets (Login, Signup, Cart, LoginDetails)
+- ✅ **Data-Driven Testing** – Test data managed via Excel sheets (Login, Signup, ContactDetails, LoginDetails)
 - ✅ **ExtentReports** – Auto-generated dark-themed HTML reports with test categories and author info
-- ✅ **Log4j2 Logging** – Detailed step-by-step logs for every test
-- ✅ **Screenshot on Execution** – Timestamped screenshots captured automatically
+- ✅ **Log4j2 Logging** – Step-by-step logs for every test execution
+- ✅ **Screenshot Capture** – Timestamped screenshots saved automatically on execution
 - ✅ **Multi-Browser Support** – Chrome, Edge, Firefox
-- ✅ **Explicit Waits** – WebDriverWait used for reliable test execution
-- ✅ **UI/UX Validation** – Font consistency, product alignment, mobile responsive checks
+- ✅ **Input Validation Testing** – Long text, emoji, and special character edge cases
+- ✅ **UI Responsiveness Checks** – Field alignment and button visibility assertions
 
 ---
 
@@ -109,8 +108,8 @@ It covers functional testing, UI/UX validation, data-driven testing, and automat
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/Raghulrasu98/PROJECT-2.1.git
-cd PROJECT-2.1
+git clone https://github.com/Raghulrasu98/PROJECT-1.1.git
+cd PROJECT-1.1
 ```
 
 **2. Install dependencies**
@@ -132,36 +131,22 @@ mvn test
 
 After execution, the HTML report is generated at:
 ```
-src/test/resources/testoutput/demoblaze.html
+src/test/resources/testoutput/herokureport.html
 ```
-Open in any browser to view detailed pass/fail results with logs and categories.
-
----
-
-## 📸 Screenshots
-
-Screenshots are automatically saved to the `/Screenshot` folder with timestamps during test execution.
-
-| Test | Screenshot |
-|---|---|
-| Login Validation | `loginValidation2026-03-06_00-42-19.png` |
-| Signup Validation | `signupValidation2026-03-06_00-42-56.png` |
-| Add to Cart | `addProductToCart2026-03-06_00-44-42.png` |
-| Order Confirmation | `ConformationPopup2026-03-06_00-46-15.png` |
-| UI Alignment Check | `verifyProductAlignment2026-03-06_00-48-26.png` |
+Open in any browser to view detailed pass/fail results with logs, categories, and author info.
 
 ---
 
 ## 📁 Excel Test Data Structure
 
-File: `src/test/resources/Data/DemoblazeData.xlsx`
+File: `src/test/resources/Data/Logindata.xlsx`
 
 | Sheet | Columns |
 |---|---|
 | Login | Username, Password, TestType, Expected |
 | Signup | Username, Password, TestType, Expected |
-| Cart | Username, Password, Product1, Product2 |
-| LoginDetails | Username, Password |
+| contactdetails | Username, Password, FirstName, LastName, Phone, City, TestType, Expected |
+| logindetails | Username, Password |
 
 ---
 
